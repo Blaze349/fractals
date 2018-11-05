@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title> Some Fractals By Me</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" type="text/css" media="all" />
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <div class="tabs">
+                <ul>
+                    <li id="mand" class="is-active"><a onclick="mandlebrot()" >Mandlebrot</a></li>
+                    <li id='sier'><a onclick="sierspinski()" >Sierspinksi Triangle</a></li>
+                    <li id='koch'><a onclick="koch()" >Koch Curve</a></li>
+                </ul> 
+            </div>
+
+        <div class="container" width="1920" height="1080">
+            <canvas id="myCanvas">
+                
+            </canvas>
+        </div>
+        <script src="./main.js" charset="utf-8"></script>
+    </body>
+</html>
