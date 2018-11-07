@@ -5,10 +5,13 @@
         <meta name="viewport" content="width=device-width" />
         <title> Some Fractals By Me</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
         <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.2.3/math.min.js" charset="utf-8"></script>
     </head>
     <body>
             <div class="tabs">
@@ -19,8 +22,8 @@
                 </ul> 
             </div>
 
-        <div class="container" width="1920" height="1080">
-            <canvas id="myCanvas">
+        <div class="container is-widescreen" style="height: 100%;" >
+            <canvas id="myCanvas" >
                 
             </canvas>
         </div>
